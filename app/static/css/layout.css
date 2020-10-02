@@ -1,0 +1,68 @@
+.wrapper {
+  display: grid;
+  grid-template-columns: 1fr, 2fr, 1fr;
+  grid-gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+}
+body {
+  background-color: rgb(255, 255, 255);
+  font-family: 'The Sun Bold';
+}
+#logo {
+  width:100%;
+}
+#subtext {
+  color: black;
+  text-align: center;
+  font-size: 5em;
+  margin: 10px auto;
+  text-transform: uppercase;
+}
+@font-face {
+    font-family: 'The Sun Bold';
+    src: url('Sun_LT_7_.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+#env {
+  color: black;
+  width: 100%;
+  white-space: -moz-pre-wrap !important;  /* Mozilla, since 1999 */
+  white-space: -pre-wrap;      /* Opera 4-6 */
+  white-space: -o-pre-wrap;    /* Opera 7 */
+  white-space: pre-wrap;       /* css-3 */
+  word-wrap: break-word;       /* Internet Explorer 5.5+ */
+  white-space: -webkit-pre-wrap; /* Newer versions of Chrome/Safari*/
+  word-break: break-all;
+  white-space: normal;
+}
+/*.one {
+  grid-column: 1/3;
+  grid-row: 1;
+  border-style: dashed;
+}
+.two {
+  grid-column: 2 / 4;
+  grid-row: 1 / 3;
+  border-style: dashed;
+}
+.three {
+  grid-row: 2 / 5;
+  grid-column: 1;
+  border-style: dashed;
+}
+.four {
+  grid-column: 3;
+  grid-row: 3;
+  border-style: dashed;
+}
+.five {
+  grid-column: 2/3;
+  grid-row: 4;
+  border-style: dashed;
+}
+.six {
+  grid-column: 3;
+  grid-row: 4;
+  border-style: dashed;
+}*/

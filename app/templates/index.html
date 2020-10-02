@@ -1,0 +1,16 @@
+{% extends "layout.html" %}
+
+{% block index %}
+    <div class="wrapper">
+        <img id="logo" src="{{ url_for('static', filename='img/cover.png') }}">
+        <p id="subtext">LIVE DEMO! {{version}}</p>
+    </div>
+    <pre>
+    <span id=env>{{env}}</span>
+    </pre>
+    <h1>Kumusta, {{ user.username }}!</h1>
+    {% for post in posts %}
+    <div><p>{{ post.author.username }} says: <b>{{ post.body }}</b></p></div>
+    {% endfor %}
+{% endblock %}
+
